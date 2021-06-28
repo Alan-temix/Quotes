@@ -2,9 +2,50 @@
   text-align: center;
 }
 
+.bgcolor-red {
+  background-color: red;
+}
+
+.bgcolor-blue {
+  background-color: blue;
+}
+
+.bgcolor-green {
+  background-color: green;
+}
+
+.bgcolor-yellow {
+  background-color: yellow;
+}
+
+.bgcolor-purple {
+  background-color: purple;
+}
+
+.bgcolor-pink {
+  background-color: pink;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container-quote {
+  background-color: white;
+  color: black;
+  width: 50%;
+  height: 33%;
+  padding: 1%;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-link {
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +55,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +66,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.counter-container {
+  text-align: center;
+}
+
+.mg-2 {
+  padding: 1rem;
+  margin: 0 1rem;
 }
 
 @keyframes App-logo-spin {
