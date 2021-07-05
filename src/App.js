@@ -9,7 +9,6 @@ function App() {
   
   return (
     <div className={`App ${color}`}>
-      {console.log(color)}
       <header className="App-header">
         <QuoteBox color={color} setColor={setColor} />
       </header>
