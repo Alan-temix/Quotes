@@ -1,0 +1,29 @@
+commit 3ae232a263d3b9a8b1a0c34062d5d7ae2203a270
+Author: Alan-temix <81398030+Alan-temix@users.noreply.github.com>
+Date:   Sun Jul 4 22:48:23 2021 -0500
+
+    Update App.js
+
+commit 63878261c2e921f07b4d222c82b60de9abc0e9c6
+Author: Alan-temix <81398030+Alan-temix@users.noreply.github.com>
+Date:   Wed Jun 30 15:58:05 2021 -0500
+
+    Update README.md
+
+commit ec51670a5879c47ba2f0078ccbb1269519c66855
+Author: Alan Temix <Temix@protonmail.com>
+Date:   Mon Jun 28 19:02:02 2021 -0500
+
+    fixed 1
+
+commit eb4338a2c59723eaa211e2b92cfebc3be213e841
+Author: Alan Temix <Temix@protonmail.com>
+Date:   Mon Jun 28 18:43:24 2021 -0500
+
+    First push
+
+commit c0bdc75b507e109777785f84cc39e8800b2fe269
+Author: Alan Temix <Temix@protonmail.com>
+Date:   Sat Jun 26 17:14:46 2021 -0500
+
+    Initialize project using Create React App

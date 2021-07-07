@@ -1,5 +1,5 @@
-import {useState} from 'react';
 import './App.css';
+import {useState} from 'react';
 import QuoteBox from './components/QuoteBox';
 
 function App() {
