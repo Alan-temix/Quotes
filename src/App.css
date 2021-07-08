@@ -35,7 +35,6 @@
   background-color: white;
   color: black;
   width: 50%;
-  height: 33%;
   padding: 1%;
 }
 
@@ -83,5 +82,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .container-quote {
+    width: 80%;
   }
 }
