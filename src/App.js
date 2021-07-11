@@ -1,11 +1,15 @@
 import './App.css';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import QuoteBox from './components/QuoteBox';
 
 function App() {
-  let colors = ['bgcolor-red', 'bgcolor-blue', 'bgcolor-green', 'bgcolor-yellow', 'bgcolor-purple', 'bgcolor-pink'];
-  let r = Math.floor(Math.random() * 5);
-  const [color, setColor] = useState(colors[r]);
+  const [color, setColor] = useState(['bgcolor-red', 'bgcolor-blue', 'bgcolor-green', 'bgcolor-yellow', 'bgcolor-purple', 'bgcolor-pink']);
+
+  useEffect(() => {
+    if(typeof color === 'object') {
+      setColor(color[Math.floor(Math.random() * color.length)])
+    }
+  }, [color])
   
   return (
     <div className={`App ${color}`}>

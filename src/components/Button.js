@@ -1,4 +1,5 @@
-const Button = ({nquotes, setRnumber}) => {
+const Button = ({nquotes, setRnumber, color}) => {
+
     return(
         <div>
             <button type="button" className="btn btn-primary" onClick={() => {
