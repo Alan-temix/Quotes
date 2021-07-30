@@ -2,18 +2,18 @@ import {useState, useEffect} from 'react';
 import Button from './Button';
 import SocialMedia from './SocialMedia';
 
-const QuoteBox = ( {color, setColor} ) => {
+const QuoteBox = ( {setColor} ) => {
     const [data, setData] = useState(null)
     const [quote, setQuote] = useState("");
     const [author, setAuthor] = useState("");
-    const [randomNumber, setRandomNumber] = useState(0);
+    const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * 102));
+
 
     useEffect(() => {
         (async () => {
           let url = 'https://gist.githubusercontent.com/carmandomx/3d7ac5f15af87a587e1d25f5ba96de61/raw/e2d848b87c730a580077de221666343c15b1a243/gistfile1.txt';
           const jsonResponse = await fetch(url).then(res => res.json());
           setData(jsonResponse);
-          setRandomNumber(Math.floor(Math.random() * 101))
         })()
       }, [])
 
@@ -33,8 +33,8 @@ const QuoteBox = ( {color, setColor} ) => {
                 <br />
                 <footer className="blockquote-footer"><cite title="Source Title">{author}</cite></footer>
                 <div className="bottom-section">
-                    <SocialMedia />
-                    <Button nquotes={data ? data['quotes']['length'] : null} setRnumber={setRandomNumber} color={color} setcolor={setColor}/>
+                    <SocialMedia quote={quote} author={author} />
+                    <Button nquotes={data ? data['quotes']['length'] : null} setRnumber={setRandomNumber} setColor={setColor} />
                 </div>
             </div>
         </div>

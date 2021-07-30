@@ -3,18 +3,19 @@ import {useEffect, useState} from 'react';
 import QuoteBox from './components/QuoteBox';
 
 function App() {
-  const [color, setColor] = useState(['bgcolor-red', 'bgcolor-blue', 'bgcolor-green', 'bgcolor-yellow', 'bgcolor-purple', 'bgcolor-pink']);
+  // const [color, setColor] = useState(['bgcolor-red', 'bgcolor-blue', 'bgcolor-green', 'bgcolor-yellow', 'bgcolor-purple', 'bgcolor-pink']);
+  const [color, setColor] = useState(['050f2c', '003666', '00aeff', '3369e7', '8e43e7', 'b84592', 'ff4f81', 'ff6c5f', 'ffc168', '2dde98', '1cc7d0']);
 
   useEffect(() => {
     if(typeof color === 'object') {
-      setColor(color[Math.floor(Math.random() * color.length)])
+      setColor(color[Math.floor(Math.random() * 6)])
     }
   }, [color])
   
   return (
-    <div className={`App ${color}`}>
+    <div className={`App bgcolor-${color}`}>
       <header className="App-header">
-        <QuoteBox color={color} setColor={setColor} />
+        <QuoteBox setColor={setColor} />
       </header>
     </div>
   );
