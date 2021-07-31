@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-/*  */
 .bgcolor-050f2c {
   background: rgb(5,15,44);
   background: radial-gradient(circle, rgba(5,15,44,0.9668067055923932) 0%, rgba(4,18,57,1) 11%, rgba(1,25,94,1) 96%);
@@ -16,42 +15,50 @@
 
 .bgcolor-00aeff {
   background: rgb(0,174,255);
-  background: radial-gradient(circle, rgba(0,174,255,1) 0%, rgba(58,147,189,1) 32%, rgba(25,105,143,1) 96%);
+  background: radial-gradient(circle, rgba(0,174,255,1) 16%, rgba(2,111,162,1) 100%); 
 }
 
 .bgcolor-3369e7 {
+  /* Este es el principal */
   background: rgb(51,105,231);
+  background: radial-gradient(circle, rgba(51,105,231,1) 16%, rgba(0,49,163,1) 100%);
 }
 
 .bgcolor-8e43e7 {
   background: rgb(142,67,231);
+  background: radial-gradient(circle, rgba(142,67,231,1) 16%, rgba(92,51,140,1) 100%); 
 }
 
 .bgcolor-b84592 {
   background: rgb(184,69,146);
+  background: radial-gradient(circle, rgba(184,69,146,1) 16%, rgba(133,56,107,1) 100%); 
 }
 
 .bgcolor-ff4f81 {
   background: rgb(255,79,129);
+  background: radial-gradient(circle, rgba(255,79,129,1) 16%, rgba(180,65,97,1) 100%); 
 }
 
 .bgcolor-ff6c5f {
   background: rgb(255,108,95);
+  background: radial-gradient(circle, rgba(255,108,95,1) 16%, rgba(198,51,38,1) 100%); 
 }
 
 .bgcolor-ffc168 {
   background: rgb(255,193,104);
+  background: radial-gradient(circle, rgba(255,193,104,1) 16%, rgba(238,151,26,1) 100%); 
 }
 
 .bgcolor-2dde98 {
   background: rgb(45,222,152);
+  background: radial-gradient(circle, rgba(45,222,152,1) 16%, rgba(0,173,105,1) 100%); 
 }
 
 .bgcolor-1cc7d0 {
   background: rgb(28,199,208);
+  background: radial-gradient(circle, rgba(28,199,208,1) 16%, rgba(0,144,152,1) 100%); 
 }
 
-/*  */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
